@@ -1,0 +1,62 @@
+
+.image-titre h1 {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 2.5rem; /* Ajuste la taille du titre */
+    margin-bottom: 20px; /* Espacement en dessous du titre */
+}
+
+.image-titre img {
+    width: 400px; /* Définit une largeur fixe */
+    height: auto; /* Garde le ratio de l'image */
+    display: block; /* Permet de centrer l'image */
+    margin: 0 auto; /* Centre l'image horizontalement */
+}
+.image-accueil {
+    border: 2px solid #f07ac9; /* Bordure rose */
+    padding: 10px; /* Espacement interne */
+    background-color: #e668d1; /* Couleur de fond */
+    border-radius: 5px; /* Coins arrondis */
+    transition: transform 0.3s; /* Animation pour le hover */
+    
+    display: flex; /* Active Flexbox */
+    justify-content: center; /* Centre horizontalement */
+    align-items: center; /* Centre verticalement */
+    height: 100%; /* Ajuste la hauteur si nécessaire */
+    margin-bottom: 10px;
+    
+}
+
+.images-accueil:hover {
+    transform: scale(1.10); /* Agrandit l'image au survol */
+}
+.custom-padding {
+    padding-bottom: 50px; /* Ajuste selon tes besoins */
+}
+
+/* page htm du skin */
+.Nom-arme
+{
+    margin-top: 20px;
+    font-size: 50px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.elements-skin {
+    border: 2px solid #f07ac9; /* Bordure rose */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 20px; /* Ajuste selon tes besoins */
+}
+.elements-skin ul {
+    font-size: 1.5em; /* Ajuste selon tes besoins, par exemple 1.5em ou 2em */
+}
+.elements-skin img {
+    width: 1500px; /* Ajuste la taille de l'image */
+    height: auto; /* Garde le ratio de l'image */
+}
+body {
+    background-color: #f79ff2; /* Exemple de violet */
+    color: #6e6e6e; /* Couleur de texte blanche pour contraster */
+}
