@@ -49,6 +49,7 @@ function creerFicherSkin($nom, $image,$type,$rarete,$prix)
         </head>
     <body>
         <h1><div class='Nom-arme text-center'>Caractéristiques et informations sur le skin $nom </div></h1>
+
         <div class='elements-skin'>
         <ul>
              <li>Nom: $nom</li>
@@ -57,7 +58,15 @@ function creerFicherSkin($nom, $image,$type,$rarete,$prix)
              <lI>Prix: $prix</li>
         </ul>
         <img src='$image' alt='$nom' width='120' height='75' class='m-3'><br>
+        
         </div>
+        <form ACTION='panier.php' METHOD='POST'>
+        <!--creer un formulaire-->
+                <input type ='submit' value='Ajouter au panier' name=ok>   
+                inpuut hiden pour recupere l'id et le mettre dns le formulaire car hiden cache l'attribut à l'utilisateur    
+            </form>
+     
+        <but
     </body>
     </html>
     ";
@@ -87,8 +96,6 @@ while ($donnees = mysqli_fetch_assoc($result)) { // Parcours chaque ligne de la 
     $prix = $donnees["prix"];
 
     echo "<div class='col-md-4 custom-padding'>"; // Utilise la classe personnalisée
-
-
         echo "<div class='lien-image mt-2'>"; // Ajoute une marge en haut
             print "<h2><a href='$nom.html'>$nom</a></h2>"; // Affiche le nom
         echo "</div>"; // Ferme le conteneur du lien

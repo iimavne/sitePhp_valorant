@@ -33,7 +33,7 @@
     padding-bottom: 50px; /* Ajuste selon tes besoins */
 }
 
-/* page htm du skin */
+/* page html du skin */
 .Nom-arme
 {
     margin-top: 20px;
@@ -55,6 +55,11 @@
 .elements-skin img {
     width: 1500px; /* Ajuste la taille de l'image */
     height: auto; /* Garde le ratio de l'image */
+}
+/* ajouter au panier */
+.bouton
+{
+
 }
 body {
     background-color: #f79ff2; /* Exemple de violet */
